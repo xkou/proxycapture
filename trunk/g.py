@@ -21,6 +21,7 @@ def get2(url, pat):
 	f.close()
 	
 	ma = re.findall(pat, buf)
+	
 	return ma
 
 class TestProxy:

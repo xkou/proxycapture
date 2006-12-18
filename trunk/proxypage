@@ -1,19 +1,12 @@
-http://www.cnproxy.com/proxy1.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy2.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy3.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy4.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy5.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy6.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy7.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
-http://www.cnproxy.com/proxy8.html		||||	<tr><td>(.+)&#30:(\d+)</td><td>\w+</td><td>.+</td><td>\w+</td></tr>
+http://www.cnproxy.com/proxy1.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy2.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy3.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy4.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy5.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy6.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy7.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
+http://www.cnproxy.com/proxy8.html		||||	<tr><td>([\d\.]+)&#\d+&#\d+:(\d+)</td>
 
-http://www.cemsg.com/proxy/index.htm	||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/2.htm			||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/3.htm			||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/4.htm			||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/5.htm			||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/6.htm			||||	<td>(.+)\:(\d+)</td>
-http://www.cemsg.com/proxy/7.htm			||||	<td>(.+)\:(\d+)</td>
 
 http://www.proxy4free.com/page1.html	||||	<tr bgcolor=\"#ffffff\" class=\"text\" height=10>\n+<td>(.+)</td>\n+<td>(\d+)</td>
 http://www.proxy4free.com/page2.html	||||	<tr bgcolor=\"#ffffff\" class=\"text\" height=10>\n+<td>(.+)</td>\n+<td>(\d+)</td>
